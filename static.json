@@ -1,0 +1,6 @@
+{
+	"root": "react-client/dist/",
+	"routes": {
+		"/**": "index.html"
+	}
+}
