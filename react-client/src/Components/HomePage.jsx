@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import HomepageLayout from './HomepageLayout';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
+	<HomepageLayout />
       </div>
     )
   }
