@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
+import HomepageLayout from './HomepageLayout';
 import NavBar from './HeaderComponent/NavBar';
 import Footer from './FooterComponent/Footer';
 
@@ -11,7 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-          <Route name="home" exact path="/" component={HomePage} />
+          <Route name="home" exact path="/" component={HomepageLayout} />
 	  <Footer />
         </div>
       </Router>
